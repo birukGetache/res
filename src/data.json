@@ -1,62 +1,490 @@
-[
+{
+    "BREAKFAST": [
+      {
+        "item_name": "Ful",
+        "price": 295,
+        "description": "Ethiopian twist beans stew served with toast bread",
+        "image_path": "/images/breakfast/ful.jpg",
+        "rate": 4.5
+      },
+      {
+        "item_name": "Three eggs your way",
+        "price": 240,
+        "description": "Your choice omelet, scramble, fried egg served with toast",
+        "image_path": "/images/breakfast/images.jpg",
+        "rate": 4.3
+      },
+      {
+        "item_name": "Croissant egg sandwich",
+        "price": 360,
+        "description": "Moist egg omelet rest on fresh baked croissant served with hash brown",
+        "image_path": "/images/breakfast/croissant_egg_sandwich.jpg",
+        "rate": 4.8
+      }
+    ],
+    "SALAD": [
+      {
+        "item_name": "Apple chicken salad",
+        "price": 270,
+        "description": "Grilled chicken, incorporated with lettuce, bell pepper tomato, cucumber, apple with homemade dressing",
+        "image_path": "/images/salad/apple_chicken_salad.jpg",
+        "rate": 4.6
+      },
+      {
+        "item_name": "Tuna salad",
+        "price": 250,
+        "description": "Seasonal garden greens, tuna with homemade dressing",
+        "image_path": "/images/salad/tuna_salad.jpg",
+        "rate": 4.4
+      },
+      {
+        "item_name": "Mixed salad",
+        "price": 180,
+        "description": "Seasonal veggies, lettuce with house dressing",
+        "image_path": "/images/salad/mixed_salad.jpg",
+        "rate": 4.2
+      }
+    ],
+"SALAD": [
   {
-    "id": "1",
-    "Type": "Pastery",
-    "Name": "Millefeuille",
-    "Price": 200,
-    "Rate": 4.5,
-    "ImagePath": "/images/Millefeuille.jpg",
-    "total": 5,
-    "detail": "Millefeuille is often enjoyed as a dessert in fine dining or special occasions due to its delicate nature and rich flavor. It requires skill to prepare due to the precision needed to bake the puff pastry and create the cream layers perfectly."
+    "item_name": "Apple chicken salad",
+    "price": 270,
+    "description": "Grilled chicken, incorporated with lettuce, bell pepper tomato, cucumber, apple with homemade dressing",
+    "image_path": "/images/salad/apple_chicken_salad.jpg",
+    "rate": 4.6
   },
   {
-    "id": "2",
-    "Type": "savory",
-    "Name": "Steak sandwich",
-    "Price": 300,
-    "Rate": 4.8,
-    "ImagePath": "/images/Steak sandwich.jpg",
-    "total": 5,
-    "detail": "A steak sandwich is a main course meal that’s filling, flavorful, and offers a satisfying combination of juicy meat, crispy bread, and fresh vegetables or sauces. It's often enjoyed with sides like fries or salad."
+    "item_name": "Tuna salad",
+    "price": 250,
+    "description": "Seasonal garden greens, tuna with homemade dressing",
+    "image_path": "/images/salad/tuna_salad.jpg",
+    "rate": 4.4
   },
   {
-    "id": "3",
-    "Type": "snack",
-    "Name": "Chechebsa",
-    "Price": 150,
-    "Rate": 4.7,
-    "ImagePath": "/images/Chechebsa.jpg",
-    "total": 5,
-    "detail": "Chechebsa is often served as a breakfast or snack, enjoyed with fresh yogurt or milk to balance out the spice. It is a comforting, flavorful dish that holds a special place in Ethiopian food culture."
+    "item_name": "Mixed salad",
+    "price": 180,
+    "description": "Seasonal veggies, lettuce with house dressing",
+    "image_path": "/images/salad/mixed_salad.jpg",
+    "rate": 4.2
+  }
+],
+
+  "PASTRY": [
+  {
+    "item_name": "Profit roll",
+    "price": 125,
+    "description": "A light and airy pastry filled with cream and topped with chocolate.",
+    "image_path": "/images/pastry/profit_roll.jpg",
+    "rate": 4.5
   },
   {
-    "id": "4",
-    "Type": "Dessert",
-    "Name": "Puff cakes",
-    "Price": 450,
-    "Rate": 4.3,
-    "ImagePath": "/images/Puff cakes.jpg",
-    "total": 5,
-    "detail": "Puff cakes could refer to pastries like cream puffs or choux pastry cakes, which are light pastries made from a dough that puffs up when baked, often filled with sweetened cream or custard."
+    "item_name": "Chocolate éclair",
+    "price": 125,
+    "description": "A classic éclair filled with rich chocolate cream and topped with icing.",
+    "image_path": "/images/pastry/chocolate_eclair.jpg",
+    "rate": 4.6
   },
   {
-    "id": "5",
-    "Type": "Dessert",
-    "Name": "Pizza",
-    "Price": 419,
-    "Rate": 4.9,
-    "ImagePath": "/images/Pizza.jpg",
-    "total": 5,
-    "detail": "Pizza is often served as a main dish and can be enjoyed with a variety of sides, such as garlic bread, salads, or dips like ranch or marinara sauce. It is typically eaten hot, either by slicing into wedges or squares, depending on the style."
+    "item_name": "Millife",
+    "price": 180,
+    "description": "A delicate pastry with layers of flaky dough and cream filling.",
+    "image_path": "/images/pastry/millife.jpg",
+    "rate": 4.7
   },
   {
-    "id": "1724161111670",
-    "Name": "Machiato",
-    "Type": "drink",
-    "Price": 4,
-    "Rate": 4,
-    "total": 5,
-    "detail": "A macchiato is ideal for coffee lovers who enjoy the taste of espresso but want just a touch of milk to soften the flavor. It's a simple, elegant coffee choice that showcases the richness of espresso.",
-    "ImagePath": "/images/Machiato.jpg"
+    "item_name": "Strawberry tart mono",
+    "price": 120,
+    "description": "A sweet tart topped with fresh strawberries and cream.",
+    "image_path": "/images/pastry/strawberry_tart_mono.jpg",
+    "rate": 4.3
+  },
+  {
+    "item_name": "Red velvet mono",
+    "price": 160,
+    "description": "A mini red velvet cake with cream cheese frosting.",
+    "image_path": "/images/pastry/red_velvet_mono.jpg",
+    "rate": 4.4
+  },
+  {
+    "item_name": "Black forest mono",
+    "price": 160,
+    "description": "A mini black forest cake with layers of chocolate and cherries.",
+    "image_path": "/images/pastry/black_forest_mono.jpg",
+    "rate": 4.5
+  },
+  {
+    "item_name": "Vanilla cake mono",
+    "price": 160,
+    "description": "A mini vanilla cake topped with a smooth buttercream frosting.",
+    "image_path": "/images/pastry/vanilla_cake_mono.jpg",
+    "rate": 4.2
+  },
+  {
+    "item_name": "Chocolate cake normal",
+    "price": 200,
+    "description": "A moist chocolate cake with a rich chocolate frosting.",
+    "image_path": "/images/pastry/chocolate_cake_normal.jpg",
+    "rate": 4.8
+  },
+  {
+    "item_name": "Danish",
+    "price": 120,
+    "description": "A flaky and buttery Danish pastry with a sweet filling.",
+    "image_path": "/images/pastry/danish.jpg",
+    "rate": 4.1
+  },
+  {
+    "item_name": "Croissant",
+    "price": 180,
+    "description": "A buttery, flaky pastry that's perfect for breakfast or a snack.",
+    "image_path": "/images/pastry/croissant.jpg",
+    "rate": 4.7
+  },
+  {
+    "item_name": "Cinnamon roll",
+    "price": 120,
+    "description": "A sweet roll with cinnamon filling, topped with icing.",
+    "image_path": "/images/pastry/cinnamon_roll.jpg",
+    "rate": 4.4
+  },
+  {
+    "item_name": "Brownie",
+    "price": 120,
+    "description": "A rich and fudgy chocolate brownie.",
+    "image_path": "/images/pastry/brownie.jpg",
+    "rate": 4.3
+  },
+  {
+    "item_name": "Loaf cake",
+    "price": 80,
+    "description": "A soft and flavorful loaf cake, perfect for tea time.",
+    "image_path": "/images/pastry/loaf_cake.jpg",
+    "rate": 4.0
+  },
+  {
+    "item_name": "Assorted mini cake",
+    "price": 165,
+    "description": "An assortment of mini cakes with various flavors.",
+    "image_path": "/images/pastry/assorted_mini_cake.jpg",
+    "rate": 4.6
+  },
+  {
+    "item_name": "Opera",
+    "price": 180,
+    "description": "A classic layered French dessert with coffee and chocolate flavors.",
+    "image_path": "/images/pastry/opera.jpg",
+    "rate": 4.7
+  },
+  {
+    "item_name": "Chocolate mousse",
+    "price": 120,
+    "description": "A creamy and indulgent chocolate mousse dessert.",
+    "image_path": "/images/pastry/chocolate_mousse.jpg",
+    "rate": 4.5
+  },
+  {
+    "item_name": "Chocolate fondante",
+    "price": 200,
+    "description": "A molten chocolate cake with a gooey center.",
+    "image_path": "/images/pastry/chocolate_fondante.jpg",
+    "rate": 4.8
+  },
+  {
+    "item_name": "Normal cupcake",
+    "price": 120,
+    "description": "A classic cupcake topped with buttercream frosting.",
+    "image_path": "/images/pastry/normal_cupcake.jpg",
+    "rate": 4.3
   }
 ]
+,
+
+  "PASTRY": [
+    { 
+      "item_name": "Profit roll", 
+      "price": 125, 
+      "description": "A light and airy pastry filled with cream and topped with chocolate.", 
+      "image_path": "/images/pastry/profit_roll.jpg",
+      "rate": 4.5
+    },
+    { 
+      "item_name": "Chocolate éclair", 
+      "price": 125, 
+      "description": "A classic éclair filled with rich chocolate cream and topped with icing.", 
+      "image_path": "/images/pastry/chocolate_eclair.jpg", 
+      "rate": 4.2
+    },
+    { 
+      "item_name": "Millife", 
+      "price": 180, 
+      "description": "A delicate pastry with layers of flaky dough and cream filling.", 
+      "image_path": "/images/pastry/millife.jpg", 
+      "rate": 4.7
+    },
+    { 
+      "item_name": "Strawberry tart mono", 
+      "price": 120, 
+      "description": "A sweet tart topped with fresh strawberries and cream.", 
+      "image_path": "/images/pastry/strawberry_tart_mono.jpg", 
+      "rate": 4.0
+    },
+    { 
+      "item_name": "Red velvet mono", 
+      "price": 160, 
+      "description": "A mini red velvet cake with cream cheese frosting.", 
+      "image_path": "/images/pastry/red_velvet_mono.jpg", 
+      "rate": 4.3
+    },
+    { 
+      "item_name": "Black forest mono", 
+      "price": 160, 
+      "description": "A mini black forest cake with layers of chocolate and cherries.", 
+      "image_path": "/images/pastry/black_forest_mono.jpg", 
+      "rate": 4.6
+    },
+    { 
+      "item_name": "Vanilla cake mono", 
+      "price": 160, 
+      "description": "A mini vanilla cake topped with a smooth buttercream frosting.", 
+      "image_path": "/images/pastry/vanilla_cake_mono.jpg", 
+      "rate": 4.1
+    },
+    { 
+      "item_name": "Chocolate cake normal", 
+      "price": 200, 
+      "description": "A moist chocolate cake with a rich chocolate frosting.", 
+      "image_path": "/images/pastry/chocolate_cake_normal.jpg", 
+      "rate": 4.8
+    },
+    { 
+      "item_name": "Danish", 
+      "price": 120, 
+      "description": "A flaky and buttery Danish pastry with a sweet filling.", 
+      "image_path": "/images/pastry/danish.jpg", 
+      "rate": 4.4
+    },
+    { 
+      "item_name": "Croissant", 
+      "price": 180, 
+      "description": "A buttery, flaky pastry that's perfect for breakfast or a snack.", 
+      "image_path": "/images/pastry/croissant.jpg", 
+      "rate": 4.5
+    },
+    { 
+      "item_name": "Cinnamon roll", 
+      "price": 120, 
+      "description": "A sweet roll with cinnamon filling, topped with icing.", 
+      "image_path": "/images/pastry/cinnamon_roll.jpg", 
+      "rate": 4.2
+    },
+    { 
+      "item_name": "Brownie", 
+      "price": 120, 
+      "description": "A rich and fudgy chocolate brownie.", 
+      "image_path": "/images/pastry/brownie.jpg", 
+      "rate": 4.3
+    },
+    { 
+      "item_name": "Loaf cake", 
+      "price": 80, 
+      "description": "A soft and flavorful loaf cake, perfect for tea time.", 
+      "image_path": "/images/pastry/loaf_cake.jpg", 
+      "rate": 4.0
+    },
+    { 
+      "item_name": "Assorted mini cake", 
+      "price": 165, 
+      "description": "An assortment of mini cakes with various flavors.", 
+      "image_path": "/images/pastry/assorted_mini_cake.jpg", 
+      "rate": 4.6
+    },
+    { 
+      "item_name": "Opera", 
+      "price": 180, 
+      "description": "A classic layered French dessert with coffee and chocolate flavors.", 
+      "image_path": "/images/pastry/opera.jpg", 
+      "rate": 4.7
+    },
+    { 
+      "item_name": "Chocolate mousse", 
+      "price": 120, 
+      "description": "A creamy and indulgent chocolate mousse dessert.", 
+      "image_path": "/images/pastry/chocolate_mousse.jpg", 
+      "rate": 4.4
+    },
+    { 
+      "item_name": "Chocolate fondante", 
+      "price": 200, 
+      "description": "A molten chocolate cake with a gooey center.", 
+      "image_path": "/images/pastry/chocolate_fondante.jpg", 
+      "rate": 4.8
+    },
+    { 
+      "item_name": "Normal cupcake", 
+      "price": 120, 
+      "description": "A classic cupcake topped with buttercream frosting.", 
+      "image_path": "/images/pastry/normal_cupcake.jpg", 
+      "rate": 4.3
+    }
+  ],
+  
+  "TORTA": [
+    { 
+      "item_name": "Red velvet", 
+      "price": 1800, 
+      "description": "A luxurious red velvet cake with cream cheese frosting.", 
+      "image_path": "/images/torta/red_velvet.jpg", 
+      "rate": 4.6
+    },
+    { 
+      "item_name": "Black forest", 
+      "price": 1500, 
+      "description": "A decadent cake with layers of chocolate, cream, and cherries.", 
+      "image_path": "/images/torta/black_forest.jpg", 
+      "rate": 4.7
+    },
+    { 
+      "item_name": "Chocolate normal", 
+      "price": 2000, 
+      "description": "A rich chocolate cake with a smooth chocolate ganache.", 
+      "image_path": "/images/torta/chocolate_normal.jpg", 
+      "rate": 4.8
+    },
+    { 
+      "item_name": "Vanilla", 
+      "price": 1500, 
+      "description": "A classic vanilla cake with light and fluffy frosting.", 
+      "image_path": "/images/torta/vanilla.jpg", 
+      "rate": 4.4
+    },
+    { 
+      "item_name": "Fasting vanilla", 
+      "price": 1500, 
+      "description": "A special vanilla cake made for fasting occasions.", 
+      "image_path": "/images/torta/fasting_vanilla.jpg", 
+      "rate": 4.5
+    },
+    { 
+      "item_name": "Fasting black forest", 
+      "price": 1500, 
+      "description": "A fasting-friendly version of the classic black forest cake.", 
+      "image_path": "/images/torta/fasting_black_forest.jpg", 
+      "rate": 4.3
+    }
+  ],
+
+  "PIZZA": [
+    { 
+      "item_name": "Chicken and mushroom", 
+      "price": 420, 
+      "description": "Chicken, mushroom, cheese, fresh tomato sauce, veggies", 
+      "image_path": "/images/pizza/chicken_and_mushroom.jpg", 
+      "rate": 4.6
+    },
+    { 
+      "item_name": "Beef pizza", 
+      "price": 410, 
+      "description": "Spicy beef, cheese, green chilli, fresh tomato sauce, oregano", 
+      "image_path": "/images/pizza/beef_pizza.jpg", 
+      "rate": 4.7
+    },
+    { 
+      "item_name": "Tuna pizza", 
+      "price": 390, 
+      "description": "Tuna, green pepper, onion, tomato, fresh tomato sauce, oregano", 
+      "image_path": "/images/pizza/tuna_pizza.webp", 
+      "rate": 4.5
+    },
+    { 
+      "item_name": "Tuna with cheese", 
+      "price": 420, 
+      "description": "Tuna, fresh veggies, oregano, cheese", 
+      "image_path": "/images/pizza/tuna_with_cheese.jpg", 
+      "rate": 4.6
+    },
+    { 
+      "item_name": "Vegetable pizza", 
+      "price": 290, 
+      "description": "Seasonal veggies, sautéed with basil paste, topped on fresh tomato, mozzarella, sauce", 
+      "image_path": "/images/pizza/vegetable_pizza.jpg", 
+      "rate": 4.4
+    }
+  ],
+
+  "SANDWICH": [
+    { 
+      "item_name": "Egg sandwich", 
+      "price": 125, 
+      "description": "A simple yet satisfying egg sandwich, perfect for breakfast.", 
+      "image_path": "/images/sandwich/club_sandwich.jpg", 
+      "rate": 4.5
+    },
+    { 
+      "item_name": "Cheese sandwich", 
+      "price": 120, 
+      "description": "A classic cheese sandwich, made with fresh ingredients.", 
+      "image_path": "/images/sandwich/steak_sandwich.jpg", 
+      "rate": 4.3
+    },
+    { 
+      "item_name": "Vegetarian sandwich", 
+      "price": 140, 
+      "description": "A fresh and healthy vegetarian sandwich, with a mix of crunchy veggies.", 
+      "image_path": "/images/sandwich/vegetable_sandwich.jpg", 
+      "rate": 4.4
+    }
+  ],
+    "BURGERS": [
+      {
+        "item_name": "BBQ burger",
+        "price": 365,
+        "description": "Juicy BBQ burger topped with fresh vegetables and special BBQ sauce.",
+        "image_path": "/images/burgers/bbq_burger.jpg",
+        "rating": 0
+      },
+      {
+        "item_name": "Beef burger",
+        "price": 370,
+        "description": "Classic beef burger with melted cheese, lettuce, and tomato.",
+        "image_path": "/images/burgers/beef_burger.jpg",
+        "rating": 0
+      },
+      {
+        "item_name": "Cheese burger",
+        "price": 340,
+        "description": "Cheese lover's burger with double layers of melted cheese.",
+        "image_path": "/images/burgers/cheese_burger.jpg",
+        "rating": 0
+      }
+    ],
+    "REFRESHERS": [
+      {
+        "item_name": "Mint lemonade",
+        "price": 150,
+        "description": "Refreshing mint-infused lemonade, perfect for a sunny day.",
+        "image_path": "/images/refreshers/mint_lemonade.jpg",
+        "rating": 0
+      },
+      {
+        "item_name": "Strawberry lemonade",
+        "price": 150,
+        "description": "Sweet and tangy strawberry-flavored lemonade.",
+        "image_path": "/images/refreshers/strawberry_lemonade.jpg",
+        "rating": 0
+      },
+      {
+        "item_name": "Afogato",
+        "price": 150,
+        "description": "Italian dessert coffee with a shot of espresso poured over ice cream.",
+        "image_path": "/images/refreshers/afogato.jpg",
+        "rating": 0
+      },
+      {
+        "item_name": "Mojito",
+        "price": 150,
+        "description": "Classic mojito with a perfect balance of mint, lime, and soda.",
+        "image_path": "/images/refreshers/mojito.jpg",
+        "rating": 0
+      }
+    ]  
+}
