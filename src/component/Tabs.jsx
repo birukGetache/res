@@ -39,7 +39,7 @@ const Tabs = () => {
   const dispatch = useDispatch();
   return (
     <NavBar>
-      {['All', 'Pastery', 'Hot', 'Drink', 'Dessert'].map(tab => (
+      {['All', 'Pastery', 'savory', 'snack', 'Dessert' , "drink"].map(tab => (
         <Tab
           key={tab}
           active={activeTab === tab}
