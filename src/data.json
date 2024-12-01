@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "Type": "Pastery",
+    "Name": "Millefeuille",
+    "Price": 200,
+    "Rate": 4.5,
+    "ImagePath": "/images/Millefeuille.jpg",
+    "total": 5,
+    "detail": "Millefeuille is often enjoyed as a dessert in fine dining or special occasions due to its delicate nature and rich flavor. It requires skill to prepare due to the precision needed to bake the puff pastry and create the cream layers perfectly."
+  },
+  {
+    "id": "2",
+    "Type": "savory",
+    "Name": "Steak sandwich",
+    "Price": 300,
+    "Rate": 4.8,
+    "ImagePath": "/images/Steak sandwich.jpg",
+    "total": 5,
+    "detail": "A steak sandwich is a main course meal that’s filling, flavorful, and offers a satisfying combination of juicy meat, crispy bread, and fresh vegetables or sauces. It's often enjoyed with sides like fries or salad."
+  },
+  {
+    "id": "3",
+    "Type": "snack",
+    "Name": "Chechebsa",
+    "Price": 150,
+    "Rate": 4.7,
+    "ImagePath": "/images/Chechebsa.jpg",
+    "total": 5,
+    "detail": "Chechebsa is often served as a breakfast or snack, enjoyed with fresh yogurt or milk to balance out the spice. It is a comforting, flavorful dish that holds a special place in Ethiopian food culture."
+  },
+  {
+    "id": "4",
+    "Type": "Dessert",
+    "Name": "Puff cakes",
+    "Price": 450,
+    "Rate": 4.3,
+    "ImagePath": "/images/Puff cakes.jpg",
+    "total": 5,
+    "detail": "Puff cakes could refer to pastries like cream puffs or choux pastry cakes, which are light pastries made from a dough that puffs up when baked, often filled with sweetened cream or custard."
+  },
+  {
+    "id": "5",
+    "Type": "Dessert",
+    "Name": "Pizza",
+    "Price": 419,
+    "Rate": 4.9,
+    "ImagePath": "/images/Pizza.jpg",
+    "total": 5,
+    "detail": "Pizza is often served as a main dish and can be enjoyed with a variety of sides, such as garlic bread, salads, or dips like ranch or marinara sauce. It is typically eaten hot, either by slicing into wedges or squares, depending on the style."
+  },
+  {
+    "id": "1724161111670",
+    "Name": "Machiato",
+    "Type": "coffee drink",
+    "Price": 4,
+    "Rate": 4,
+    "total": 5,
+    "detail": "A macchiato is ideal for coffee lovers who enjoy the taste of espresso but want just a touch of milk to soften the flavor. It's a simple, elegant coffee choice that showcases the richness of espresso.",
+    "ImagePath": "/images/Machiato.jpg"
+  }
+]

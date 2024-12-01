@@ -1,0 +1,60 @@
+[
+    {
+      "id": "1",
+      "Type": "Pastery",
+      "Name": "Croissant",
+      "Price": 200,
+      "Rate": 4.5,
+      "ImagePath": "data:image/jpeg;base64,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",
+      "total": 5,
+      "detail": "The Croissant is a classic French pastry known for its flaky, buttery layers. It is baked to a golden brown perfection, offering a delicate crunch with every bite. Perfect for breakfast or as a delightful snack with coffee."
+    },
+    {
+      "id": "2",
+      "Type": "Dessert",
+      "Name": "Chocolate Cake",
+      "Price": 300,
+      "Rate": 4.8,
+      "ImagePath": "/images/th.jpg",
+      "total": 5,
+      "detail": "Our Chocolate Cake is a rich and decadent treat made with the finest cocoa. Each slice offers a moist texture and a deep chocolate flavor, perfect for satisfying any sweet tooth. It's an ideal choice for celebrations or an indulgent dessert."
+    },
+    {
+      "id": "3",
+      "Type": "Hot",
+      "Name": "Latte",
+      "Price": 150,
+      "Rate": 4.7,
+      "ImagePath": "/images/hotcoffe.png",
+      "total": 5,
+      "detail": "A Latte is a popular coffee drink made with espresso and steamed milk. It provides a smooth and creamy texture, balanced with a strong coffee flavor. Ideal for a morning boost or a comforting afternoon pick-me-up."
+    },
+    {
+      "id": "4",
+      "Type": "Drink",
+      "Name": "Iced Coffee",
+      "Price": 450,
+      "Rate": 4.3,
+      "ImagePath": "/images/coffecold.webp",
+      "total": 5,
+      "detail": "Our Iced Coffee is a refreshing beverage brewed to perfection and served chilled. It combines the bold taste of coffee with a cool, invigorating finish. Perfect for hot days or as a refreshing alternative to hot coffee."
+    },
+    {   "id": "5",
+      "Type": "Dessert",
+      "Name": "Cheesecake",
+      "Price": 419,
+      "Rate": 4.9,
+      "ImagePath": "/images/chees.jpg",
+      "total": 5,
+      "detail": "Our Cheesecake is a creamy, rich dessert with a smooth texture and a graham cracker crust. Each bite offers a perfect balance of sweetness and tanginess. Ideal for any occasion, it’s a favorite among dessert lovers."
+    },
+    {
+      "id": "1724161111670",
+      "Name": "adf",
+      "Type": "adf",
+      "Price": 4,
+      "Rate": 4,
+      "detail": "afdadf",
+      "ImagePath": "./images/1724161111663-track.webp"
+    }
+  ]
