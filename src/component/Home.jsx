@@ -31,7 +31,7 @@ const P = styled.span`
   font-family:MyCustomFont, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  margin: 0;
+  margin: 10px;
   width: fit-content;
   display: flex;
 `;
@@ -73,7 +73,7 @@ const Search = styled.div`
   margin: 20px;
   border: none;
   border-radius: 19px;
-  padding: 15px;
+  padding: 7px;
   box-shadow: 10px 10px 20px rgba(0.1, 0.1, 0.1, 0.15);
   background-color:white;
 `;
@@ -103,7 +103,7 @@ const Home = () => {
         </NavBar>
         <Dis>Order your favorite Pastry!</Dis>
         <Search>
-          <FaSearch />
+          <FaSearch/>
           <SearchBar
             placeholder="Search food"
             value={searchQuery}
