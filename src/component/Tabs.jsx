@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from '@emotion/styled';
 import { useSelector, useDispatch } from 'react-redux';
 import { setActiveTab } from '../tabsSlices';
@@ -11,17 +11,18 @@ const NavBar = styled.nav`
   justify-content: space-around;
   align-items: center;
   height: 90px;
-   overflow-x: auto;
+  overflow-x: auto;
 `;
 
-const Tab = styled.button`
-margin:10px;
-  background-color: ${props => (props.active ? '#CA8A71' : '#ccc' )};
+const Tab = styled.div`
+  margin: 10px;
+  background-color: ${props => (props.active ? '#CA8A71' : '#ccc')};
   color: ${props => (props.active ? 'white' : '#CA8A71')};
-  border:  2px solid  ${props => (props.active ? '#CA8A71' : 'transparent' )};
-  padding:10px;
+  border: 2px solid ${props => (props.active ? '#CA8A71' : 'transparent')};
+  padding: 10px;
   font-size: 1rem;
-  min-width:100px;
+  min-width: 100px;
+  text-align: center;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   transition: background-color 0.3s, color 0.3s;
@@ -33,13 +34,13 @@ margin:10px;
   }
 `;
 
-
 const Tabs = () => {
   const activeTab = useSelector(state => state.tabs.activeTab);
   const dispatch = useDispatch();
+  
   return (
     <NavBar>
-      {['All', 'BREAKFAST', 'SALAD', 'PASTRY' , "TORTA", "PIZZA","SANDWICH" , "BURGERS", "REFRESHERS"].map(tab => (
+      {['All', 'BREAKFAST', 'SALAD', 'PASTRY', 'TORTA', 'PIZZA', 'SANDWICH', 'BURGERS', 'REFRESHERS'].map(tab => (
         <Tab
           key={tab}
           active={activeTab === tab}
