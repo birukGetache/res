@@ -12,6 +12,7 @@ const NavBar = styled.nav`
   align-items: center;
   height: 90px;
   overflow-x: auto;
+  width:auto;
 `;
 
 const Tab = styled.div`
