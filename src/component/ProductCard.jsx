@@ -8,7 +8,7 @@ import axios from 'axios';
 const Card = styled.div`
   border: none;
   border-radius: 8px;
-  height: 200px;
+  height: 160px;
   margin: 10px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0.5, 0.5, 0.5, 0.5);
