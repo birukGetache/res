@@ -7,8 +7,8 @@ import { setActiveTab } from '../tabsSlices';
 const NavBar = styled.nav`
   background-color: transparent;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
+ display: flex;
+  justify-content: flex-start;
   align-items: center;
   height: 90px;
   overflow-x: auto;
